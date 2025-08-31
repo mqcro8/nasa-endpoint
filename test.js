@@ -229,9 +229,9 @@ export const idkFu3 = (async (lan) => {
                             if(jsonResponse.media_type == "video"){
                                 ans = {
                                     url: jsonResponse.thumbnail_url,
-                                    copyright: jsonResponse.copyright | (lan == 1 ? "Not found":"No se encontró"),
-                                    title: jsonResponse.title | (lan == 1 ? "Not found":"No se encontró"),
-                                    explanation: jsonResponse.explanation | (lan == 1 ? "Not found":"No se encontró"),
+                                    copyright: jsonResponse.copyright || (lan == 1 ? "Not found":"No se encontró"),
+                                    title: jsonResponse.title || (lan == 1 ? "Not found":"No se encontró"),
+                                    explanation: jsonResponse.explanation || (lan == 1 ? "Not found":"No se encontró"),
                                     media_type :jsonResponse.media_type
                                 }
 
@@ -249,9 +249,9 @@ export const idkFu3 = (async (lan) => {
                             else if(jsonResponse.media_type == "image"){
                                 ans = {
                                     url: jsonResponse.url,
-                                    copyright: jsonResponse.copyright | (lan == 1 ? "Not found":"No se encontró"),
-                                    title: jsonResponse.title | (lan == 1 ? "Not found":"No se encontró"),
-                                    explanation: jsonResponse.explanation | (lan == 1 ? "Not found":"No se encontró"),
+                                    copyright: jsonResponse.copyright || (lan == 1 ? "Not found":"No se encontró"),
+                                    title: jsonResponse.title || (lan == 1 ? "Not found":"No se encontró"),
+                                    explanation: jsonResponse.explanation || (lan == 1 ? "Not found":"No se encontró"),
                                     media_type :jsonResponse.media_type
                                 }
                             }
