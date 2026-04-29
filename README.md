@@ -25,28 +25,28 @@ The app answers one powerful question: **"What's happening right now in space an
 ### 1. Astronomy Picture of the Day (APOD)
 The home screen centerpiece. Displays NASA's daily featured space image with its title, date, and explanation. Gives the app fresh content every single day.
 
-![alt text](image.png)
+<img width="343" height="646" alt="image" src="https://github.com/user-attachments/assets/ffd38b55-3ba4-49f1-b796-7749d15fb87b" />
 
 ---
 
 ### 2. Mars Gallery
 An interactive gallery of real images from Mars rovers (Curiosity, Perseverance, and others). Users can filter by rover, browse using navigation controls, and view metadata like the camera used, Earth date, and Martian sol number.
 
-![alt text](image-1.png)
+<img width="295" height="593" alt="image" src="https://github.com/user-attachments/assets/c4374041-6c80-47dd-9d66-da9d2721bf8d" />
 
 ---
 
 ### 3. Asteroid Watch
 Displays near-Earth asteroids approaching Earth in real time, including their distance, size, and velocity. Features a **custom canvas visualizer** where Earth is fixed on screen and asteroids are dynamically positioned and scaled based on actual data — giving users an intuitive feel for spatial relationships in space.
 
-![alt text](image-2.png)
+<img width="315" height="578" alt="image" src="https://github.com/user-attachments/assets/7ec7a34c-802f-4850-8f09-13e8fe76be6a" />
 
 ---
 
 ### 4. Earth Events (EONET)
 Tracks natural events happening around the world right now — wildfires 🔥, storms 🌀, volcanoes 🌋, ice events 🧊, and more. Features a hybrid interface with a scrollable event list and an interactive map with markers. Complex geometry arrays are parsed on the backend to extract the latest event location and convert coordinates into the format MIT App Inventor expects.
 
-![alt text](image-3.png)
+<img width="307" height="578" alt="image" src="https://github.com/user-attachments/assets/539aabf7-0aad-46ea-8254-c7ecf4b3c3f0" />
 
 ---
 
